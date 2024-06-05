@@ -1,8 +1,12 @@
 spring:
-   boot:
+     boot:
     admin:
       client:
         url: http://localhost:1111/
+    
+ 
+    
+   
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: root

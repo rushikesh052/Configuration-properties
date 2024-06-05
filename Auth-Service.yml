@@ -8,7 +8,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: root
-    url: jdbc:mysql://localhost:3306/eCommerce
+    url: jdbc:mysql://localhost:3306/eCommerceApp
     username: root
   jpa:
     hibernate:

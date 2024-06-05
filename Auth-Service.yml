@@ -16,3 +16,12 @@ spring:
     show-sql: true
 server:
  port: 9090
+  config:
+    import:
+    - optional:configserver:http://localhost:2222/
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

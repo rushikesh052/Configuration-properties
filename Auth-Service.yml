@@ -3,15 +3,12 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
-    
- 
-    
-   
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: root
     url: jdbc:mysql://localhost:3306/ecommerceapp
     username: root
+  
   jpa:
     hibernate:
       ddl-auto: update
@@ -21,5 +18,5 @@ management:
     web:
       exposure:
         include: '*'
-server:
- port: 9090
+  server:
+    port: 9090

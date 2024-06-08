@@ -19,14 +19,14 @@ management:
       exposure:
         include: '*'
 server:
-  port: 9090
+  port: 9091
   
 product-service:
-  messages: 
-	addProd: Product added sucessful.
-	addProdErr: product not added..
-	AddCategory: category Added sucessful ...!
-	AddCategoryErr: category not added
-	  CategorUpdate: category Updated
-	  categoryUpdateErr: category not found for updation
+   messages: 
+    addProd: Product added sucessful.
+    addProdErr: product not added..
+    AddCategory: category Added sucessful ...!
+    AddCategoryErr: category not added
+    CategorUpdate: category Updated
+    categoryUpdateErr: category not found for updation
    

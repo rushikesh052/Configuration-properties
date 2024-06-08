@@ -6,7 +6,37 @@ spring:
  datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: root
+    url: spring:
+ boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+ datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
     url: jdbc:mysql://localhost:3306/ecommerceapp
+    username: root
+  
+ jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 8081
+  
+auth-service:
+	 messages: 
+	  addProd: Product added sucessful.
+	  addProdErr: product not added..
+	  AddCategory: category Added sucessful ...!
+	  AddCategoryErr: category not added
+	  CategorUpdate: category Updated
+	  categoryUpdateErr: category not found for updation
     username: root
   
  jpa:

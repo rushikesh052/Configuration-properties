@@ -21,7 +21,7 @@ management:
 server:
   port: 9090
   
-auth-service:
+product-service:
   messages: 
 	addProd: Product added sucessful.
 	addProdErr: product not added..

@@ -28,5 +28,11 @@ product-service:
     AddCategory: category Added sucessful ...!
     AddCategoryErr: category not added
     CategorUpdate: category Updated
-    categoryUpdateErr: category not found for updation
+    categoryUpdateErr: category not found for 
+    allcategories: All category display
+    retrieveunsucess: Category error 
+    categoryNotFount: category not found with this id
+    category_deleted: Category delete sucessfully
+    
+    
    

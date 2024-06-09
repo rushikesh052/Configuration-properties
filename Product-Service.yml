@@ -30,9 +30,19 @@ product-service:
     CategorUpdate: category Updated
     categoryUpdateErr: category not found for 
     allcategories: All category display
-     categories: Category data 
+    categories: Category data 
     categoryNotFount: category not found with this id
     category_deleted: Category delete sucessfully
+    update_product: product update sucessfully
+    update_prod_err: product update failed
+    product_retrieve: product 
+    allProduct_retrieve: all products 
+    product_delete: product deleted sucess
+    stock_update: stock update sucess
+    stock_not_fount: product not found for updation
+    
+    
+    
     
     
    

@@ -30,7 +30,7 @@ product-service:
     CategorUpdate: category Updated
     categoryUpdateErr: category not found for 
     allcategories: All category display
-    retrieveunsucess: Category error 
+     categories: Category data 
     categoryNotFount: category not found with this id
     category_deleted: Category delete sucessfully
     

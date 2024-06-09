@@ -40,6 +40,9 @@ product-service:
     product_delete: product deleted sucess
     stock_update: stock update sucess
     stock_not_fount: product not found for updation
+    product_not_found: product not found 
+    product_not_found_for_delete: product not found for delete
+    category_not_found_for_delete: category not found for delete
     
     
     

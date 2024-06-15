@@ -19,4 +19,4 @@ management:
       exposure:
         include: '*'
 server:
-  port: 8085
+  port: 9095

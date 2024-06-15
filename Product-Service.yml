@@ -19,7 +19,7 @@ management:
       exposure:
         include: '*'
 server:
-  port: 9091
+  port: 9092
   
 product-service:
    messages: 
